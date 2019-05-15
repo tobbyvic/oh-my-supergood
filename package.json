@@ -1,0 +1,23 @@
+{
+  "name": "oh-my-supergood",
+  "version": "1.6.0",
+  "description": "一个自己瞎写的组件",
+  "main": "dist/my-component.js",
+  "unpkg": "dist/my-component.min.js",
+  "module": "dist/my-component.esm.js",
+  "dependencies": {},
+  "devDependencies": {
+    "vue-template-compiler": "^2.6.10",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-vue": "^5.0.0"
+  },
+  "peerDependencies": {
+    "element-ui": "^2.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prePublish": "rollup --config build/rollup.config.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
